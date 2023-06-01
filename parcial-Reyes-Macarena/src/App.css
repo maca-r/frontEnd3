@@ -5,36 +5,81 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.form{
+  background-color: #cbcbcb;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.811);
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 20px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+form{
+  display: flex;
+  flex-direction: column;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+label {
+  color: black;
+  font-size: 16px;
+  margin-bottom: 8px;
 }
 
-.card {
-  padding: 2em;
+input{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+
+button {
+  
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 12px;
+}
+
+
+.cardRender {
+  background-color: #cbcbcb;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.811);
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+h2 {
+  color: black;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+h4 {
+  margin-top: 3px;
+  color: #004e9c;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+h5 {
+  color: black;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+p {
+  color: rgb(173, 9, 9);
+  font-size: 14px;
+  margin-bottom: 0;
 }
 
 .read-the-docs {
